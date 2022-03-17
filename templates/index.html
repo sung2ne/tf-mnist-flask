@@ -110,6 +110,8 @@
                                 $('#percentage_' + index).text(percent);
                                 if (index == predict) {
                                     $('#tr_' + index).addClass('table-primary');
+                                } else {
+                                    $('#tr_' + index).removeClass('table-primary');
                                 }
                             });
                         }
